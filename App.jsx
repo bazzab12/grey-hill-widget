@@ -1,14 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import GreyHillWidget from './GreyHillWidget';
+import React from 'react'
+import GreyHillWidget from './GreyHillWidget.jsx'
 
-// This is the entry point for the embed widget
-function App() {
-  return (
-    <React.StrictMode>
-      <GreyHillWidget />
-    </React.StrictMode>
-  );
+export default function App() {
+  return <GreyHillWidget />
 }
-
-ReactDOM.render(<App />, document.getElementById('grey-hill-widget'));
